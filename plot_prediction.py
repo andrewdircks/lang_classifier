@@ -23,8 +23,8 @@ if __name__ == '__main__':
   '''
   parser = argparse.ArgumentParser()
   parser.add_argument('--mpath', type=str)
-  parser.add_argument('--snippet', type=str)
   parser.add_argument('--out', type=str)
+  parser.add_argument('--snippet', type=str)
   args = parser.parse_args()
 
   # load model and predict
