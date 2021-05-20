@@ -5,7 +5,10 @@ Machine learning for detecting source code language from a string of text. This 
 Our system supports 20 programming languages: Bash, C, C++, CSV, DOTFILE, Go, HTML, JSON, Java, JavaScript, Jupyter, Markdown, PowerShell, Python, Ruby, Rust, Shell, TSV, Text, and Yaml.
 
 ### Auto syntax-highlight
-With our fork of the [Ace](https://ace.c9.io) online text editor, run and develop code with **real time**, predictive syntax highlighting, as you type.
+With our fork of the [Ace](https://ace.c9.io) online text editor, run and develop code with **real time**, predictive syntax highlighting, as you type. Run the following command after training a model
+```
+python3 app.py
+```
 
 ### Dependencies
 - the Kaggle dataset
@@ -14,6 +17,7 @@ With our fork of the [Ace](https://ace.c9.io) online text editor, run and develo
 - Python >3.0
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [matplotlib](https://matplotlib.org) for visuals
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/) for running the GUI locally
 
 ## Running
 To build, train, and test a Naive Bayes model, use
