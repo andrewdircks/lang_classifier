@@ -37,3 +37,6 @@ python3 plot_prediction.py --mpath models/bayes.sav --out plots/prediction.png -
 
 ## Documentation
 See `docs\` for a research paper and presentation on this code.
+
+## Authors
+Andrew Dircks (abd93@cornell.edu) & Sam Kantor (sk2467@cornell.edu)
