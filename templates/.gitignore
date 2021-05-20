@@ -1,0 +1,4 @@
+snippets-dev/*
+venv/*
+*__pycache__
+*.vscode
